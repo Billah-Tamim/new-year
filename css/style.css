@@ -1,0 +1,39 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+section{
+    margin: 50px 200px;
+}
+
+/* header section */
+header{
+    background-image: url("../images/banner/banner3.png");
+    background-size: cover;
+    height: 100vh;
+}
+.header-align{
+    display: flex;
+    justify-content: right;
+    
+}
+.banner{
+    text-align: right;
+    width: 35%;
+    height: 500px;
+}
+.banner h1{
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.banner p{
+    color: #FFFFFF;
+}
+.common-btn{
+    color: #005FAC;
+    background-color: #FFFFFF;
+    padding: 15px 25px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 8px;
+}
